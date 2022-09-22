@@ -20,6 +20,6 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
     myNode->n = value;
     myNode->left = NULL;
     myNode->right = NULL;
-
+    
     return (myNode)
 }
